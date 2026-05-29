@@ -1,31 +1,13 @@
-# Allo Bank — Fraud Investigation Multi-Agent System
+can you make in raw markdown format?
+# Fraud Investigation API
 
-## Overview
+AI-powered fraud investigation system using:
 
-This project implements a hybrid fraud detection and investigation system using:
-
-- Machine Learning Fraud Scoring
-- Multi-Agent Architecture
-- Retrieval-Augmented Generation (RAG)
-- Rule-Based Fraud Policies
-- FastAPI REST API
-- Dockerized Deployment
-
----
-
-## Architecture
-
-- Orchestrator Agent
-- Fraud Scoring Agent
-- Customer Context Agent
-- Policy RAG Agent
-- Reasoning Agent
+- FastAPI
+- LangGraph multi-agent workflow
+- Machine Learning fraud scoring
+- RAG (Retrieval-Augmented Generation)
+- OpenAI LLM
+- Chroma Vector Database
 
 ---
-
-## Setup
-
-### Build and Run
-
-```bash
-docker compose up --build
